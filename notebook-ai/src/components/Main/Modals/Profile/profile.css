@@ -1,0 +1,54 @@
+.profile-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    height:100vh;
+    width:100vw;
+}
+
+.profile-edit-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-edit-header img{
+    width: 50px;
+    height: 50px;
+}
+
+.profile-edit-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.profile-edit-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-edit-button button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+}
+
+.profile-edit-redactor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

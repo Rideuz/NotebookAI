@@ -1,0 +1,135 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-component{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.main-profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-bottom: 2px solid blue;
+}
+
+.notes{
+    flex: 8;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    border-radius: 10px;
+    height: 25px;
+    width: 95%;
+}
+
+.search img{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.exit{
+    flex: 1;
+    border-top: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exit button{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.main-buttons button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.main-buttons button img{
+    width: 20px;
+    height: 20px;
+}
+
+.main-buttons{
+    flex:1;
+    border-right: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    gap: 5px;
+}
+
+.main-profile{
+    flex:4;
+    border-right: 2px solid blue;
+}
+
+.main-edit{
+    flex:15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-avatar{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.note{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    background-color: green;
+    gap: 5px;
+    border-radius: 5px;
+}
+.note span{
+    margin-left: 10px;
+}
