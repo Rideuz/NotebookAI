@@ -16,8 +16,6 @@ function Registration() {
 
     async function handleRedirectToMain(){
 
-        console.log(supabase);
-
         if(!username || !email || !password || !repeatPassword){
             toast.error('Please fill in all fields');
             return null;
@@ -30,32 +28,46 @@ function Registration() {
             return null;
         }
 
+        if(password.length < 6){
+            toast.error('Too short password must be at least 6 characters long');
+            return null;
+        }
+
         if(password !== repeatPassword){
             toast.error('Passwords will differ');
             return null;
         }
 
         try {
-            const { data: users, error } = await supabase
-                .from('users')
-                .select('*')
-            //.or(`email.eq.${email}, username.eq.${username}`)
+            let { data: user, error: errConnect } = await supabase.auth.signUp({
+                username: username,
+                email: email,
+                password: password
+            })
 
-            console.log(users)
-            console.log(error)
+            if(errConnect){
+                toast.error(`${errConnect}`);
+                console.log(errConnect);
+                return null;
+            }
+
+            const { data: _user, error } = await supabase
+                .from('users')
+                .insert({username: username, email: email, password: password})
+
+            if(error){
+                toast.error(`${error}`);
+                console.log(user);
+                return null;
+            }
+
+            toast.success(`Successfully registered user ${_user}`);
+
+            navigate('/');
         }
         catch (err){
             console.log(err)
         }
-
-
-        //let { data, error } = await supabase.auth.signUp({
-        //    username: username,
-        //    email: email,
-        //    password: password
-        //})
-
-        //navigate('/main');
     }
 
     return (

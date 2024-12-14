@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook-ai/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook-ai/src/lib/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Abrikosochka__frontend&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Рабочий стол/NotebookAI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Рабочий стол/tpattendants&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,6 +82,11 @@
       <workItem from="1733675866533" duration="595000" />
       <workItem from="1733677057247" duration="14960000" />
       <workItem from="1733727861923" duration="1185000" />
+      <workItem from="1733869624920" duration="36000" />
+      <workItem from="1734020149789" duration="12868000" />
+      <workItem from="1734072316723" duration="1368000" />
+      <workItem from="1734076029327" duration="4783000" />
+      <workItem from="1734092992343" duration="174000" />
     </task>
     <servers />
   </component>
