@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/notebook-ai/public/send2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/public/ai.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/ai.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/public/brush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/brush.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/public/loupe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/loupe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/public/template.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/template.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/noteRedactor.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/noteRedactor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Abrikosochka__frontend&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Рабочий стол/NotebookAI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Abrikosochka__frontend",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/artem/OneDrive/Рабочий стол/NotebookAI/notebook-ai/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\artem\OneDrive\Рабочий стол\NotebookAI\notebook-ai\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\artem\OneDrive\Рабочий стол\NotebookAI\notebook-ai\src\components\Main\Modals" />
     </key>
@@ -88,7 +97,9 @@
       <workItem from="1734174833418" duration="23000" />
       <workItem from="1734174857240" duration="85000" />
       <workItem from="1734174961495" duration="7000" />
-      <workItem from="1734174969537" duration="8104000" />
+      <workItem from="1734174969537" duration="10366000" />
+      <workItem from="1734200814327" duration="2000" />
+      <workItem from="1734200824036" duration="6554000" />
     </task>
     <servers />
   </component>

@@ -56,24 +56,24 @@ function Main(){
                     <button>
                         <img src="../../../public/ai.svg" alt="Brush icon"/>
                     </button>
+                    <button onClick={handleRedirectToLogin}>
+                        <img src="../../../public/logout.svg" alt="Brush icon"/>
+                    </button>
                 </div>
 
                 <div className="main-profile">
-                    <div className="profile">
-                        <img src="../../../public/avatar.png" className="profile-avatar" onClick={handleOpenProfile} />
+                    <div className="profile" onClick={handleOpenProfile}>
+                        <img src="../../../public/avatar.png" className="profile-avatar"/>
                         <label>Username</label>
                     </div>
+                    <div className="search">
+                        <input type="text" name="search"/>
+                        <img src="../../../public/loupe.svg" alt="Search"/>
+                    </div>
                     <div className="notes">
-                        <div className="search">
-                            <input type="text" name="search"/>
-                            <img src="../../../public/loupe.svg" alt="Search" />
-                        </div>
                         <div className="note"><span>Заметка 1</span></div>
                         <div className="note"><span>Заметка 2</span></div>
                         <div className="note"><span>Заметка 3</span></div>
-                    </div>
-                    <div className="exit">
-                        <button onClick={handleRedirectToLogin}>Exit</button>
                     </div>
                 </div>
 
