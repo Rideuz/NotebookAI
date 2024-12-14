@@ -70,24 +70,32 @@ function Registration() {
         }
     }
 
+    const handleRedirectToLogin = () => {
+        navigate('/');
+    }
+
     return (
         <div className="registration">
             <div className="registration-form">
+                <div className="title-web">NotebookAI</div>
                 <form onSubmit={(e) => e.preventDefault()}>
                     <div className="registration-form-inputs">
-                        <label htmlFor="username">Username</label>
-                        <input type="text" name="username" onChange={(e) => setUsername(e.target.value)} required />
-                        <label htmlFor="email">Email</label>
-                        <input type="email" name="email" onChange={(e) => setEmail(e.target.value)} />
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" onChange={(e) => setPassword(e.target.value)} />
-                        <label htmlFor="password">Repeat Password</label>
-                        <input type="password" name="password" onChange={(e) => setRepeatPassword(e.target.value)}/>
+                        <input type="text" id="login-username" name="username" placeholder="Username"
+                               onChange={(e) => setUsername(e.target.value)} required/>
+                        <input type="email" id="login-email" name="email" placeholder="Email"
+                               onChange={(e) => setEmail(e.target.value)}/>
+                        <input type="password" id="login-password" name="password" placeholder="Password"
+                               onChange={(e) => setPassword(e.target.value)}/>
+                        <input type="password" id="login-password" name="password" placeholder="Repeat Pasword"
+                               onChange={(e) => setRepeatPassword(e.target.value)}/>
                     </div>
-                    <div className="registr-buttons">
-                        <input type="submit" value="Create account" onClick={handleRedirectToMain} />
+                    <div className="login-button">
+                        <input className="sign-in-button" type="submit" value="Create account" onClick={handleRedirectToMain}/>
                     </div>
                 </form>
+                <div className="registr-button">
+                    <a className="sign-up-button" onClick={handleRedirectToLogin}>Already have an account?</a>
+                </div>
             </div>
             <ToastContainer/>
         </div>

@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/registration.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Abrikosochka__frontend&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Рабочий стол/tpattendants&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/artem/OneDrive/Рабочий стол/NotebookAI&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,6 +83,10 @@
       <workItem from="1734072316723" duration="1368000" />
       <workItem from="1734076029327" duration="4783000" />
       <workItem from="1734092992343" duration="174000" />
+      <workItem from="1734174821321" duration="11000" />
+      <workItem from="1734174833418" duration="23000" />
+      <workItem from="1734174857240" duration="85000" />
+      <workItem from="1734174961495" duration="7000" />
     </task>
     <servers />
   </component>
