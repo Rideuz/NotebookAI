@@ -1,7 +1,7 @@
 import "./registration.css"
 import { useNavigate } from 'react-router-dom';
-import {useState} from "react";
-import { ToastContainer, toast } from 'react-toastify';
+import { useState } from "react";
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {supabase} from "../../lib/auth.js";
 
@@ -40,28 +40,39 @@ function Registration() {
 
         try {
             let { data: user, error: errConnect } = await supabase.auth.signUp({
-                username: username,
                 email: email,
                 password: password
             })
 
-            if(errConnect){
-                toast.error(`${errConnect}`);
-                console.log(errConnect);
+            if(errConnect) {
+                if (errConnect.message === `Email address "${email}" is invalid`){
+                    toast.error("An invalid email has been entered");
+                }
+                console.log(errConnect.message);
                 return null;
             }
 
-            const { data: _user, error } = await supabase
-                .from('users')
-                .insert({username: username, email: email, password: password})
+            const { data: newuser, error } = await supabase
+                .rpc('registration',
+                    {
+                        newusername: username,
+                        newemail: email,
+                        newpassword: password
+                })
 
             if(error){
-                toast.error(`${error}`);
+                toast.error(error.message);
                 console.log(user);
                 return null;
             }
 
-            toast.success(`Successfully registered user ${_user}`);
+            if(newuser === 0){
+                toast.success(`Successfully registered user ${username}`);
+            }
+            else{
+                toast.error(`There is already a user with this email address`);
+                return null;
+            }
 
             navigate('/');
         }
@@ -97,7 +108,6 @@ function Registration() {
                     <a className="sign-up-button" onClick={handleRedirectToLogin}>Already have an account?</a>
                 </div>
             </div>
-            <ToastContainer/>
         </div>
     );
 }

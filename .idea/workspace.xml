@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/Registration.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Registration/registration.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Registration/registration.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +88,7 @@
       <workItem from="1734174833418" duration="23000" />
       <workItem from="1734174857240" duration="85000" />
       <workItem from="1734174961495" duration="7000" />
+      <workItem from="1734174969537" duration="8104000" />
     </task>
     <servers />
   </component>
