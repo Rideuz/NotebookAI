@@ -1,6 +1,6 @@
 import './login.css'
 import { useNavigate } from 'react-router-dom';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import {useState} from "react";
 import {supabase} from "../../lib/auth.js";
 
@@ -8,13 +8,12 @@ function Login(){
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [username, setUsername] = useState('');
 
 
     const navigate = useNavigate();
 
     async function  handleLogin(){
-        if(!username || !email || !password){
+        if(!email || !password){
             toast.error('Please fill in all fields');
             return null;
         }
@@ -28,18 +27,24 @@ function Login(){
 
         try {
             let { data, error } = await supabase.auth.signInWithPassword({
-                username: username,
                 email: email,
                 password: password
             })
 
+            console.log(error)
+
             if(error){
-                console.log(`${error}`);
+                if (error.message === "Email not confirmed"){
+                    toast.error('Please confirmed email');
+                }
+                else{
+                    toast.error('Wrong email or password');
+                }
                 return null;
             }
 
             console.log(data);
-
+            toast.success(`Welcome back in NotebookAI`);
             navigate('/main');
 
         } catch (err){
@@ -58,8 +63,6 @@ function Login(){
                 <div className="title-web">NotebookAI</div>
                 <form onSubmit={(e) => e.preventDefault()}>
                     <div className="login-form-inputs">
-                        <input id="login-username" placeholder="Username" type="text" name="username"
-                               onChange={(e) => setUsername(e.target.value)} required/>
                         <input id="login-email" placeholder="Email" type="email" name="email" onChange={(e) => setEmail(e.target.value)}
                                required/>
                         <input id="login-password" placeholder="Password" type="password" name="password"
@@ -74,7 +77,6 @@ function Login(){
                     <a className="sign-up-button" onClick={handleRedirectToRegister}>Sign up with email</a>
                 </div>
             </div>
-            <ToastContainer/>
         </div>
     );
 }

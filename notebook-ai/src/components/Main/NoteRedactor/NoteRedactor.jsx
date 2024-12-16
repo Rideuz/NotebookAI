@@ -5,22 +5,22 @@ function NoteRedactor() {
         <div className="note-redactor">
             <div className="redactor">
                 <div className="note-header">
-                    <input type="text" className="note-title" placeholder="Заголовок заметки"/>
+                    <input type="text" className="note-title" placeholder="Untiled"/>
                 </div>
                 <div className="note-body">
-                    <textarea className="note-content" placeholder="Напишите вашу заметку..."></textarea>
-                    <div className="note-image-upload">
-                        <input type="file" className="image-input" accept="image/*"/>
-                    </div>
-                    <div className="note-images">
-                        Тут будут отображатся ваши сообщения
-                    </div>
+                    <textarea className="note-content"></textarea>
+                    {/*<div className="note-image-upload">*/}
+                    {/*    <input type="file" className="image-input" accept="image/*"/>*/}
+                    {/*</div>*/}
+                    {/*<div className="note-images">*/}
+                    {/*    Тут будут отображатся ваши сообщения*/}
+                    {/*</div>*/}
                 </div>
             </div>
             <div className="ai-request">
-                <form onSubmit={(e) => e.preventDefault()}>
+                <form>
                     <input type="text"/>
-                    <input type="submit"/>
+                    <input type="submit" value=" "/>
                 </form>
             </div>
         </div>
