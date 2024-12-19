@@ -36,7 +36,7 @@ function Main(){
     }, [userId]);
 
     const handleOpenTemplates = () => {
-        
+
     }
 
     const handleOpenProfile = () => {

@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook-ai/src/lib/userStorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/Modals/Templates/Templates.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/Modals/Templates/templates.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <workItem from="1734200814327" duration="2000" />
       <workItem from="1734200824036" duration="6554000" />
       <workItem from="1734626129780" duration="1351000" />
-      <workItem from="1734627537318" duration="11069000" />
+      <workItem from="1734627537318" duration="11534000" />
     </task>
     <servers />
   </component>
