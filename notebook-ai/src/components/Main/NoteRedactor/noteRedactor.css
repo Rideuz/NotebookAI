@@ -10,26 +10,28 @@
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    flex: 10;
+    flex: 100;
     padding: 10px;
-    border: 1px solid red;
     border-radius: 10px;
     gap: 20px;
 }
 
 .note-header{
-    flex: 1;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.note-header input{
+    min-width: 90%;
+    padding: 0;
 }
 
 .note-body{
-    flex: 10;
-    display: flex;
-    flex-direction: column;
+    flex: 15;
     width: 100%;
+    height: 100%;
 }
 
 .ai-request{
@@ -40,7 +42,6 @@
     margin-left: 15px;
     margin-right: 15px;
     flex: 1;
-    border: 1px solid red;
     border-radius: 10px;
 }
 
@@ -55,23 +56,69 @@
 
 .ai-request form input[type=submit]{
     flex: 1;
+    width: 30px;
+    height: 30px;
+    background: url("../../../../public/send1.svg") no-repeat;
+    border: none;
 }
+
+.ai-request form input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.ai-request form input[type=submit]:active{
+    background: url("../../../../public/send2.svg") no-repeat;
+}
+
 .ai-request form input[type=text]{
-    flex: 10;
+    flex: 50;
+    border: none;
+    background: none;
+    color: black;
+    border-bottom: 1px solid black;
 }
 
 .note-title{
+    font-family: Arial, sans-serif;
+    color: black;
     background: none;
     border: none;
-    text-align: center;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.note-title::placeholder{
+    color: black;
 }
 
 .note-content{
+    font-family: "Gill Sans MT";
+    color: black;
     resize: none;
-    font-size: 15px;
+    padding: 0;
+    font-size: 20px;
     background: none;
     border: none;
-    height: 70%;
+    height: 100%;
     width: 99%;
+    white-space: pre-wrap; /* Добавлено для сохранения переносов строк */
+    overflow-wrap: break-word; /* Позволяет переносить длинные слова */
+    overflow: auto; /* Добавлено для видимости полосы прокрутки, если текст длиннее контейнера */
+}
+
+.note-content::-webkit-scrollbar {
+    width: 5px; /* Ширина всего элемента навигации */
+}
+
+.note-content::-webkit-scrollbar-track {
+    background: white; /* Цвет дорожки */
+}
+
+.note-content::-webkit-scrollbar-thumb {
+    background-color: black; /* Цвет бегунка */
+    border-radius: 20px; /* Округление бегунка */ /* Оформление границ бегунка */
+}
+
+.edit_icon{
+    width: 30px;
+    height: 30px;
 }
