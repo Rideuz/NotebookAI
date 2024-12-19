@@ -1,10 +1,18 @@
 import "./noteRedactor.css"
 import { HfInference } from "@huggingface/inference"
-// import {useState} from "react";
+import {useEffect, useState} from "react";
 
-function NoteRedactor() {
+function NoteRedactor({ note }) {
 
-    // const [aiMessage, setAiMessage] = useState([])
+    const [content, setContent] = useState("Untiled");
+    const [title, setTitle] = useState("");
+
+    useEffect(() => {
+        if (note) {
+            setContent(note.content);
+            setTitle(note.title);
+        }
+    }, [note]);
 
     async function handleAiGenerate(event) {
         event.preventDefault()
@@ -37,16 +45,16 @@ function NoteRedactor() {
         <div className="note-redactor">
             <div className="redactor">
                 <div className="note-header">
-                    <input type="text" className="note-title" placeholder="Untiled"/>
+                    <input type="text" className="note-title"
+                           value={title}
+                           onChange={e => setTitle(e.target.value)}
+                    />
                 </div>
                 <div className="note-body">
-                    <textarea className="note-content"></textarea>
-                    {/*<div className="note-image-upload">*/}
-                    {/*    <input type="file" className="image-input" accept="image/*"/>*/}
-                    {/*</div>*/}
-                    {/*<div className="note-images">*/}
-                    {/*    Тут будут отображатся ваши сообщения*/}
-                    {/*</div>*/}
+                    <textarea className="note-content"
+                              value={content}
+                              onChange={(e) => setContent(e.target.value)}
+                    ></textarea>
                 </div>
             </div>
             <div className="ai-request">
