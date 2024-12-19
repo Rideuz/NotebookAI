@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee26a66-9ee9-494a-a6db-447dee082383" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook-ai/public/send2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/public/ai.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/ai.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/public/brush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/brush.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/public/loupe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/loupe.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/public/template.svg" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/public/template.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/.env" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebook-ai/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/NoteRedactor.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/noteRedactor.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/NoteRedactor/noteRedactor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/notebook-ai/src/components/Main/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Abrikosochka__frontend",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/artem/OneDrive/Рабочий стол/NotebookAI/notebook-ai/public",
     "node.js.detected.package.eslint": "true",
@@ -100,6 +95,7 @@
       <workItem from="1734174969537" duration="10366000" />
       <workItem from="1734200814327" duration="2000" />
       <workItem from="1734200824036" duration="6554000" />
+      <workItem from="1734626129780" duration="789000" />
     </task>
     <servers />
   </component>
