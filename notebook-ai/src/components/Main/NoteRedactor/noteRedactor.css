@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    flex: 10;
+    flex: 100;
     padding: 10px;
     border-radius: 10px;
     gap: 20px;
@@ -18,7 +18,14 @@
 
 .note-header{
     width: 100%;
-    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.note-header input{
+    min-width: 90%;
+    padding: 0;
 }
 
 .note-body{
@@ -72,10 +79,11 @@
 }
 
 .note-title{
+    font-family: Arial, sans-serif;
     color: black;
     background: none;
     border: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .note-title::placeholder{
@@ -86,11 +94,15 @@
     font-family: "Gill Sans MT";
     color: black;
     resize: none;
-    font-size: 15px;
+    padding: 0;
+    font-size: 20px;
     background: none;
     border: none;
     height: 100%;
     width: 99%;
+    white-space: pre-wrap; /* Добавлено для сохранения переносов строк */
+    overflow-wrap: break-word; /* Позволяет переносить длинные слова */
+    overflow: auto; /* Добавлено для видимости полосы прокрутки, если текст длиннее контейнера */
 }
 
 .note-content::-webkit-scrollbar {
@@ -104,4 +116,9 @@
 .note-content::-webkit-scrollbar-thumb {
     background-color: black; /* Цвет бегунка */
     border-radius: 20px; /* Округление бегунка */ /* Оформление границ бегунка */
+}
+
+.edit_icon{
+    width: 30px;
+    height: 30px;
 }
