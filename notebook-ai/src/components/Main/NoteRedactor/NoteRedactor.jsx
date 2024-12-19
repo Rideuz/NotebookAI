@@ -35,7 +35,6 @@ function NoteRedactor() {
                 setContent(out);
             }
         }
-
     }
 
     const updateNoteOnBd = async () =>{
