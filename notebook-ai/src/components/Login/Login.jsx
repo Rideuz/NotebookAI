@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import {useState} from "react";
 import {supabase} from "../../lib/auth.js";
+import {getUser, getUserNotes, getUserData} from "../../lib/userStorage.js";
 
 function Login(){
 
@@ -43,7 +44,8 @@ function Login(){
                 return null;
             }
 
-            console.log(data);
+            console.log(data)
+            await getUser(email);
             toast.success(`Welcome back in NotebookAI`);
             navigate('/main');
 

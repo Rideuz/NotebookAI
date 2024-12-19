@@ -1,14 +1,21 @@
-import { useState } from "react"
 import { HfInference } from "@huggingface/inference"
 import { supabase } from "../../../lib/auth.js"
 import "./noteRedactor.css"
+import {useEffect, useState} from "react";
 
-function NoteRedactor() {
+function NoteRedactor({ note }) {
 
     const [aiMessage, setAiMessage] = useState('');
-    const [content, setContent] = useState('');
-    const [title, setTitle] = useState('');
     const [edit, setEdit] = useState(false);    
+    const [content, setContent] = useState("Untiled");
+    const [title, setTitle] = useState("");
+
+    useEffect(() => {
+        if (note) {
+            setContent(note.content);
+            setTitle(note.title);
+        }
+    }, [note]);
 
     async function handleAiGenerate(event) {
         event.preventDefault()

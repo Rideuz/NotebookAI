@@ -58,6 +58,18 @@
     width: 93%;
 }
 
+.notes span{
+    border-radius: 10px;
+    padding-left: 15px ;
+    transition: 0.5s ease;
+}
+
+.notes span:hover{
+    cursor: pointer;
+    background: #c4c4c4;
+    transition: 0.5s ease;
+}
+
 .notes::-webkit-scrollbar {
     width: 5px; /* Ширина всего элемента навигации */
 }
