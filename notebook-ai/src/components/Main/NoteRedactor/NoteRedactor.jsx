@@ -105,7 +105,7 @@ function NoteRedactor({ note }) {
             <div className="ai-request">
                 <form >
                     <input type="text" onChange={(e) => setAiMessage(e.target.value)}/>
-                    <input type="submit" onClick={(e) => handleAiGenerate(e)}/>
+                    <input type="submit" value = " " onClick={(e) => handleAiGenerate(e)}/>
                 </form>
             </div>
         </div>
